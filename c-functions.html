@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions | C</title>
+</head>
+<body>
+    <header>
+        <span>
+            Created with <span class="red">❤</span> by <a href="https://github.com/piyushgupta04">xD</a>
+        </span>
+    </header>
+    <main>
+        <h1>Functions in C.</h1>
+        <h2>Program to print the sum of 2 numbers with the help of Functions.</h2>
+        <h3>Source Code:</h3>
+        <code>
+            <pre>
+// Passing Arguments
+#include <stdio.h>
+#include <conio.h>
+
+int a,b;
+int sum (int a, int b);
+void desc_fun();
+void dr_line();
+
+int main(){
+
+    desc_fun();
+    printf("Enter 1st number : ");
+    scanf("%d", &a);
+    printf("Enter 2nd number : ");
+    scanf("%d", &b);
+    int s = sum(a,b);
+    printf("Sum is : %d\n", s);
+    dr_line();
+
+}
+
+void dr_line() {
+    printf("---------------x----------------\n");
+}
+
+void desc_fun(){
+    printf("Welcome User ;)\nThis is a program to print the sum of 2 given number!\nLanguage: [ C Language ]\n");
+    dr_line();
+}
+
+int sum(int a, int b){
+    return a + b;
+}
+            </pre> 
+        </code>
+        <div class="output">
+            <span>Output:</span>
+            <img src="/Git Pages/Selectors_in_CSS/imgs/01.png" height="190px"  alt="Output SS of this program.">
+        </div>
+    </main>
+</body>
+</html>

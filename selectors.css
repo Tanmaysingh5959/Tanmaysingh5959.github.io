@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.😁_div{
+    background-color: rgb(58, 112, 179);
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    text-align: center;
+    font-size: 28px;
+    /* margin: 8px; */
+}
+.😁_div > a{
+    color: white;
+    /* background-color: rgb(127, 148, 255); */
+    text-decoration: none;
+    margin: 3px;
+}
+.😁_div > a:hover{
+    color: rgb(215, 238, 255);
+    /* background-color: rgb(251, 252, 255); */
+    margin: 3px;
+
+    /* padding: 2px; */
+    /* border: 1px solid rgb(43, 43, 54);  */
+    text-decoration: none;
+}
+.div-1 > h1 {
+    text-align: justify;
+    font-family: 'Chivo Mono', monospace;
+    color: rgb(58, 112, 179);
+    padding: 10px;
+    margin: 5px;
+    
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    /* padding: 10px; */
+    overflow: hidden;
+    margin-top: 2px;
+
+
+}
+nav a{
+    text-decoration: none;
+    color: rgb(58, 112, 179);
+    float:right;
+    padding: 20px;
+    text-align: center;
+}
+nav > a:hover{
+    color: rgb(205, 106, 26);
+}
+table, tr, th, td{
+    border: 3px rgb(58, 112, 179) solid;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: center;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}

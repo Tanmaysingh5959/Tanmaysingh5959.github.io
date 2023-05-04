@@ -1,0 +1,14 @@
+header > p {
+  font-family: cursive;
+  font-size: 110%;
+  color: rgb(255, 255, 255);
+  background-color: rgb(106, 198, 201);
+  text-decoration: double;
+  text-align: center;
+  padding: 10px;
+}
+
+main > h1 {
+  font-weight: bold;
+  color: firebrick;
+}
